@@ -1,0 +1,15 @@
+@charset "UTF-8";
+body{
+    background-color: lightgreen;
+    color: rgb(48, 41, 41);
+}
+h1{
+    background-color: rgb(53, 48, 48);
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+a{
+    color: rgb(54, 175, 18);
+    font: normal 15pt calibri;
+}

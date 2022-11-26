@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(182, 243, 92);
+            font: normal 15pt calibri;
+            color: rgb(182, 243, 92);
+        }
+        h1{
+            background-color: rgb(0, 0, 0);
+            border-radius: 15px;
+            text-align: center;
+            width: 550px;
+            margin: auto;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.199);
+        }
+        section{
+            background-color: rgb(0, 0, 0);
+            position: relative;
+            top: 50px;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.199);
+            width: 550px;
+            margin: auto;
+            margin-bottom: 15px;
+        }
+        div{
+            width: 550px;
+            margin: auto;
+        }
+        video{
+            width: 550px;
+            height: 315px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Adicionando vídeos no HTML5</h1>
+    <section>
+        <p>Este vídeo está hospedado localmente:</p>
+        <video controls poster="imagens/limoes-capa.png" loop>
+            <!--ele tentará carregar cada um deles. Se não conseguir, exibirá aquela mensagem-->
+            <source src="videos/meu-video-mp4.mp4" type="video/mp4">
+            <source src="videos/meu-video-m4v.m4v" type="video/m4v">
+            <source src="videos/meu-video-webm.webm" type="video/webm">
+            <source src="videos/meu-video-ogv.ogv" type="video/ogv">
+            <p>Seu navegador não tem compatibilidade com vídeos</p>
+        </video>
+    </section>
+    <!--vídeos externos: basta entrar no site, clicar em compartilhar e selecionar <> e/ou copiar o html disponível-->
+    <section>
+        <div>
+            <p>Este vídeo está hospedado no servidor do youtube</p>
+            <iframe width="550" height="315" src="https://www.youtube.com/embed/S-UAi_VA9Ck" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+</body>
+</html>

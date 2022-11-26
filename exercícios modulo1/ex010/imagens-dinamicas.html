@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagens/imagem-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/imagem-m.png" type="image/png">
+            <img src="imagens/imagem-g.png" alt="Foto G">
+        </picture>
+    </p>
+    <h1>Adicionando áudio no HTML5</h1>
+    <h2>Uma maneira</h2>
+    <p>
+        <audio src="audio/happy-mistake.mp3" controls></audio>
+        <!-- mp3 wav ogg-->
+    </p>
+    <h2>Outra maneira</h2>
+    <!--Aqui, ele vai tentar carregar os áudios de cima para baixo, se não conseguir, poderá clicar no link-->
+    <audio preload="metadata" controls loop>
+        <source src="audio/happy-mistake.mp3" type="audio/mpeg">
+        <source src="audio/happy-mistake.ogg" type="audio/ogg">
+        <source src="audio/happy-mistake.wav" type="audio/wav">
+        
+        <!-- ogg -> ogg // wav -> wav // mp3 -> mpeg -->
+    </audio>
+    <p>Se o seu navegador não conseguir reproduzir o áudio. <a href="audio/happy-mistake.mp3" download="audio/happy-mistake.mp4" type="audio/mpeg">Clique neste link para baixar o áudio</a></p>
+</body>
+</html>

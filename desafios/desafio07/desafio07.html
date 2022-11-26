@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: rgb(176, 222, 197);
+            font: normal 16px calibri;
+        }
+        section{
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+            width:max-content;
+            margin: auto;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.233);
+        }
+        h1{
+            background-color: rgb(103, 223, 157);
+            border-radius: 20px;
+            width: 500px;
+            margin: auto;
+            margin-bottom: 20px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.233);
+        }
+    </style>
+</head>
+<body>
+    <h1>Desafio das imagens dinâmicas</h1>
+    <section>
+        <picture>
+            <source media="(max-width: 650px)" srcset="desafio07-p-800.jpg" type="image/jpeg">
+            <source media="(max-width: 850px)" srcset="desafio07-m-800.jpg" type="image/jpeg">
+            <img src="desafio07-g-800.jpg" alt="Imagem g IS-3">
+        </picture>
+    </section>
+</body>
+</html>

@@ -1,0 +1,122 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Android';
+    src: url('content/fontes/idroid.otf') format('opentype');
+}
+body{
+    font: normal 1em Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: rgb(235, 227, 214);
+}
+header{
+    background-image: linear-gradient(to bottom, #64E05F, #4CAD49, #2B6129);
+    position: relative;
+    top: -22px;
+    height: 220px;
+    padding: 10px;
+    color: white;
+    text-shadow: 2px 2px 0px #20471e9a;
+    margin: 0;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.384);
+}
+section#cabeca{
+    text-align: center;
+    margin-bottom: 50px;
+}
+h1#curiosidades{
+    margin-top: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    font-size: 2em;
+}
+header > nav{
+    position: relative;
+}
+nav > a{
+    margin: 5px;
+    text-decoration: none;
+    color: #bcdfbb;
+    text-shadow: 2px 2px 0px #2B6129;
+    padding: 9px;
+    border-radius: 5px;
+}
+nav > a:hover{
+    background-color: #51864f;
+}
+h2{
+    font-family: 'Android', sans-serif;
+    font-size: 1.3em;
+    color: #4CAD49;
+    background-image: linear-gradient(to left, #ffffff, #abf0a9, #8dee8b);
+}
+h1#primeiroh1{
+    font-family: 'Android', sans-serif;
+    font-size: 1.5em;
+    color: #3e6d3d;
+}
+main{
+    margin: auto;
+    background-color: white;
+    max-width: 820px;
+    padding: 10px;
+    position: relative;
+    top: -22px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.164);
+}
+div{
+    text-align: center;
+}
+.video{
+    text-align: center;
+    background-color: #2B6129;
+    padding: 10px;
+    max-width: 820px;
+    margin: auto;
+    position: relative;
+    top: -22px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.164) ;
+}
+p{
+    text-indent: 25px;
+    text-align: justify;
+}
+article#quer{
+    background-color: #3e6d3d;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.267);
+}
+article#caixalista{
+    background-color: #8eda8b;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.267);
+}
+footer{
+    background-color: #2B6129;
+    padding: 10px;
+    text-align: center;
+    
+}
+strong{
+    color: #3e6d3d;
+}
+.links{
+    text-decoration: none;
+    color: #2B6129;
+    background-color: #8eda8b;
+    padding: 1px;
+    border-radius: 2px;
+    font-weight: bolder;
+}
+.links:hover{
+    text-decoration: underline;
+}
+p#topo{
+    text-align: center;
+}
+img{
+    width: 100%;
+}
