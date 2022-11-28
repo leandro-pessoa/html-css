@@ -12,7 +12,7 @@
 }
 @media (max-width: 480px){
     body{
-        background-image: url('imagens/background-ferdinand-800.jpg');
+        background-image: url('imagens/background-is-full.jpg');
     }
 }
 @media (min-width: 481px) and (max-width: 1024px){
@@ -40,7 +40,7 @@ a{
     text-decoration: none;
     color: var(--cor5);
 }
-main a:hover{
+main.page a:hover{
     text-decoration: underline;
 }
 main.page a::after{
