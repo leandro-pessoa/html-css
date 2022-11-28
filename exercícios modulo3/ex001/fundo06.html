@@ -7,19 +7,28 @@
     <title>Document</title>
     <style>
         body{
-            background-color: aqua;
+            /*background-color: aqua;
             background-image: url('imagens/wallpaper002.jpg');
             height: 97vh;
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center top;
+            background-attachment: fixed;*/
+            /*
+            SHORTHAND (ainda não funciona muito bem em 2022)
+            --> o size deve ser daclarado separadamente
+            */
+            background: black url('imagens/wallpaper002.jpg') center top no-repeat fixed;
+            background-size: cover;
         }
         main{
-            width: 400px;
+            max-width: 400px;
             margin: auto;
             border: 1px solid black;
+            border-radius: 20px;
             padding: 10px;
             background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.966);
         }
         p{
             text-align: justify;
@@ -29,6 +38,9 @@
 <body>
     <main>
         <h1 style="text-align: center;">Teste de imagem de fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam aliquid quia consectetur atque nihil explicabo suscipit dolorum. Praesentium aperiam provident ea adipisci incidunt esse laudantium magnam! Fuga quaerat necessitatibus exercitationem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iste illum voluptates facere adipisci aliquam aspernatur a cupiditate error. In dolor ut pariatur fuga, quibusdam sed necessitatibus deserunt ex similique. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias unde vitae cupiditate illum natus officia magni dolorem? Placeat adipisci consectetur, ex repellat maxime et omnis voluptas, perferendis provident voluptates labore.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam aliquid quia consectetur atque nihil explicabo suscipit dolorum. Praesentium aperiam provident ea adipisci incidunt esse laudantium magnam! Fuga quaerat necessitatibus exercitationem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iste illum voluptates facere adipisci aliquam aspernatur a cupiditate error. In dolor ut pariatur fuga, quibusdam sed necessitatibus deserunt ex similique. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias unde vitae cupiditate illum natus officia magni dolorem? Placeat adipisci consectetur, ex repellat maxime et omnis voluptas, perferendis provident voluptates labore.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam aliquid quia consectetur atque nihil explicabo suscipit dolorum. Praesentium aperiam provident ea adipisci incidunt esse laudantium magnam! Fuga quaerat necessitatibus exercitationem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iste illum voluptates facere adipisci aliquam aspernatur a cupiditate error. In dolor ut pariatur fuga, quibusdam sed necessitatibus deserunt ex similique. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias unde vitae cupiditate illum natus officia magni dolorem? Placeat adipisci consectetur, ex repellat maxime et omnis voluptas, perferendis provident voluptates labore.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam aliquid quia consectetur atque nihil explicabo suscipit dolorum. Praesentium aperiam provident ea adipisci incidunt esse laudantium magnam! Fuga quaerat necessitatibus exercitationem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iste illum voluptates facere adipisci aliquam aspernatur a cupiditate error. In dolor ut pariatur fuga, quibusdam sed necessitatibus deserunt ex similique. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias unde vitae cupiditate illum natus officia magni dolorem? Placeat adipisci consectetur, ex repellat maxime et omnis voluptas, perferendis provident voluptates labore.</p>
     </main>
 </body>
