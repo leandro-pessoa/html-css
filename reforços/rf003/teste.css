@@ -1,5 +1,3 @@
-@charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@400;700&display=swap');
 @media screen and (max-width: 540px){
     p.img{
         max-width: 300px;
@@ -11,8 +9,16 @@
     }
 }
 @media (max-width: 480px){
+    html {
+        background: url('imagens/background-ferdinand-800.jpg') no-repeat center center fixed;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+    }
     body{
-        background-image: none;
+        height:100%;
+        overflow: scroll;
+        -webkit-overflow-scrolling: touch;
     }
 }
 @media (min-width: 481px) and (max-width: 1024px){
