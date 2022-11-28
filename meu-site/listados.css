@@ -29,6 +29,16 @@
 }
 a{
     text-decoration: none;
+    color: var(--cor5);
+}
+main a:hover{
+    text-decoration: underline;
+}
+main.page a::after{
+    content: '\01F517';
+}
+strong{
+    color: var(--cor4);
 }
 body{
     font: normal 1.1em Arial, Helvetica, sans-serif;
