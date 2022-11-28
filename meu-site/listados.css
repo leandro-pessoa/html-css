@@ -1,10 +1,5 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@400;700&display=swap');
-@media screen and (max-width: 300px){
-    p.img{
-        max-width: 250px;
-    }
-}
 @media screen and (max-width: 540px){
     p.img{
         max-width: 300px;
@@ -15,7 +10,21 @@
         max-width: 500px;
     }
 }
-
+@media (max-width: 480px){
+    body{
+        background-image: url('imagens/background-ferdinand-800.jpg');
+    }
+}
+@media (min-width: 481px) and (max-width: 1024px){
+    body{
+        background-image: url('imagens/background-ferdinand-1000.jpg');
+    }
+}
+@media (min-width: 1025px){
+    body{
+        background-image: url('imagens/background-ferdinand-full.jpg');
+    }
+}
 :root{
     --cor1:#a0e064;
     --cor2:#A8CC87;
@@ -43,7 +52,6 @@ strong{
 body{
     font: normal 1.1em Arial, Helvetica, sans-serif;
     background-color: rgb(184, 236, 173);
-    background-image: url('imagens/background-ferdinand-full.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
