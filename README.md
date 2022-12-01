@@ -19,7 +19,7 @@
             background-color: #00174E;
         }
         header{ 
-            background: black url('../desafios/desafio011/imagens/espaco.jpg') center center no-repeat fixed;
+            background: black url('desafios/desafio011/imagens/espaco.jpg') center center no-repeat fixed;
             background-size: cover;
             height: 100px;
             text-align: center;
@@ -58,7 +58,7 @@
             padding: 10px;
         }
         a:hover{
-            background: black url('../desafios/desafio011/imagens/espaco.jpg') center center no-repeat fixed;
+            background: black url('desafios/desafio011/imagens/espaco.jpg') center center no-repeat fixed;
             background-size: cover;
             color: white;
             text-shadow: 1px 1px 1px #00174E;
