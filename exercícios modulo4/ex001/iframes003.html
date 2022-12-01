@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframes 3</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        iframe{
+            border: 2px dashed black;
+            width: 97vw;
+            height: 480px;
+        }
+        a{
+            text-decoration: none;
+            color: lightseagreen;
+            font-weight: bold;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Navegando nos iframes</h1>
+    <ul>
+        <li><a href="https://leandro-pessoa.github.io/html-css/meu-site/index.html" target="frame">Meu site</a></li>
+        <li><a href="../../desafios/desafio010 copy/desafio010.html" target="frame">Projeto android</a></li>
+        <li><a href="../../desafios/desafio012/desafio012.html" target="frame">Projeto cordel</a></li>
+    </ul>
+    <iframe name="frame" srcdoc="<img src='../../meu-site/imagens/background-ferdinand-800.jpg'>"></iframe>
+</body>
+</html>
