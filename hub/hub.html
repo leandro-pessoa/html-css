@@ -15,7 +15,9 @@
         }
         body{
             font-family: Arial, Helvetica, sans-serif;
-            background-color: #00174E;
+            /*background-image: linear-gradient(to bottom, #86dbfa, #58c4eb, #143974, #022153);*/
+            height: 100vh;
+            background-color: lightblue;
         }
         header{ 
             background: black url('../desafios/desafio011/imagens/espaco.jpg') center center no-repeat fixed;
@@ -29,43 +31,50 @@
             padding-top: 20px;
             color: white;
             font-size: 3em;
-            text-shadow:4px 4px 2px #00174E;
+            text-shadow:4px 4px 2px #0c2a70;
         }
         h2{
             font-family: 'Fredoka One', cursive;
             font-weight: normal;
-            color: #106085;
-            text-shadow:1px 1px 1px #00174E;
+            color: white;
+            text-shadow:.5px .5px 0px #699df7;
             padding: 10px;
+            background-image: linear-gradient(to right, #175289, transparent);
+            border-radius: 10px;
         }
         main{
             background-color: white;
             padding: 10px;
             max-width: 800px;
             margin: 40px auto;
-            border-radius: 10px;
-            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.438);
+            background-color: lightblue;
         }
         a{
             text-decoration: none;
-            color: #136586;
+            color: #054964;
             font-weight: bolder;
-            padding: 5px;
             border-radius: 10px;
         }
         div{
-            padding: 10px;
+            padding: 5px;
+            margin: 5px;
+            border-radius: 20px;
+            padding-left: 20px;
+            max-width: 500px;
+            
         }
-        a:hover{
+        div:hover{
             background: black url('../desafios/desafio011/imagens/espaco.jpg') center center no-repeat fixed;
             background-size: cover;
             color: white;
-            text-shadow: 1px 1px 1px #00174E;
-            transition-duration: 0.5s;
+            transform: translate(-3px, -3px);
+            transition: transform 0.3s;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.322);
         }
+
         footer{
-            color: white;
-            text-shadow:2px 2px 1px #106085;
+            color: #00174E;
+            text-shadow:1px 1px 0px #106085;
             text-align: center;
             font-weight: bold;
             font-size: 1.3em;
@@ -79,9 +88,10 @@
     <main>
         <section>
             <h2>Acesse aqui meus principais projetos:</h2>
-            <div><a href="https://leandro-pessoa.github.io/html-css/meu-site/index.html" target="_blank" rel="external">Meu site (Conteúdo autoral)</a></div>
-            <div><a href="https://leandro-pessoa.github.io/html-css/desafios/desafio010 copy/desafio010.html" target="_blank" rel="external">Projeto android (Conteúdo não autoral)</a></div>
-            <div><a href="https://leandro-pessoa.github.io/html-css/desafios/desafio012/desafio012.html" target="_blank" rel="external">Projeto cordel (Conteúdo não autoral)</a></div>
+            <a href="https://leandro-pessoa.github.io/html-css/meu-site/index.html" target="_blank" rel="external"><div>Meu site (Conteúdo autoral)</div></a>
+            <a href="https://leandro-pessoa.github.io/html-css/desafios/desafio010 copy/desafio010.html" target="_blank" rel="external"><div>Projeto android (Conteúdo não autoral)</div></a>
+            <a href="https://leandro-pessoa.github.io/html-css/desafios/desafio012/desafio012.html" target="_blank" rel="external"><div>Projeto cordel (Conteúdo não autoral)</div></a>
+            <a href="https://leandro-pessoa.github.io/html-css/desafios/desafio015/imagens/desafio015.html" target="_blank" rel="external"><div>Projeto redes sociais (Conteúdo não autoral)</div></a>
         </section>
     </main>
     <footer>
