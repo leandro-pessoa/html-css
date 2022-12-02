@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get" autocomplete="on">
+        <p>
+            <label for="iuf">Unidade da Federação:</label>
+            <select name="ud" id="iuf">
+                <option value="" selected>Escolha</option>
+                <optgroup label="Região Sudeste"> 
+                    <option value="sp">São Paulo</option>
+                    <option value="rj">Rio de Janeiro</option>
+                    <option value="mg">Minas Gerais</option>
+                    <option value="es">Espírito Santo</option>
+                </optgroup>
+                <optgroup>
+                    <optgroup label="Região Centro-Oeste">
+                        <option value="df">Distrito Federal</option>
+                        <option value="go">Goiás</option>
+                        <option value="ms">Mato Grosso do Sul</option>
+                        <option value="mt">Mato Grosso</option>
+                    </optgroup>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão:</label>
+            <input type="text" name="prof" id="iprof" list="data">
+            <datalist id="data">
+                <option value="Prof">Professor</option>
+                <option value="Cont">Contabilista</option>
+                <option value="Des">Desenvolvedor</option>
+                <option value="Adm">Administrador</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="imsg">Mensagem:</label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

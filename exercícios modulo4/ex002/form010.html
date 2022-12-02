@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Medidor de idade</h1>
+    <form action="">
+        <p>
+            <label for="iidade">Digite seu ano de nascimento:</label>
+            <input type="number" name="idade" id="iidade" oninput="calc()">
+        </p>
+        <p>
+            <label for="out">Sua idade é:</label>
+            <output id="out">
+
+            </output>
+        </p>
+    </form>
+    <script>
+        function calc(){
+            var ano = new Date().getFullYear()
+            out.innerHTML = ano - Number(iidade.value)
+        }
+    </script>
+</body>
+</html>

@@ -121,10 +121,14 @@ article.selects{
     color: #36551b;
     margin-bottom: 10px;
     display: inline-table;
+    height: 200px;
 }
 .selects:hover{
     background-color: var(--cor4);
     transition-duration: 0.5s;
+    transform: translate(-4px, -4px);
+    transition: transform 0.3s;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.308);
 }
 main{
     background-color: white;
