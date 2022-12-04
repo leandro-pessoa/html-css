@@ -1,0 +1,28 @@
+@charset "UTF-8";
+@media screen and (min-width: 768px) {
+    header{
+        min-height: 115px;
+    }
+    menu#menu{
+        display: block;
+        background-color: transparent;
+        margin-top: 25px;
+        padding-left: 15px;
+    }
+    button{
+        display: none;
+    }
+    a{
+        display: inline;
+        border: none;
+        background-color: darkgray;
+        border-radius: 5px;
+    }
+    a:hover{
+        background-color: white;
+        color: darkgray;
+        transition-duration: 0.3s;
+    }
+}
+
+
