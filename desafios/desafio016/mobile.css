@@ -28,6 +28,11 @@ button img{
     height: 30px;
     width: 30px;
 }
+button:hover{
+    background-color: rgb(180, 173, 173);
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
 menu#menu{
     background-color: rgba(0, 0, 0, 0.856);
     display: none;
@@ -39,6 +44,10 @@ a{
     text-decoration: none;
     border-bottom: 2px solid rgb(122, 119, 119);
     color: white;
+}
+a:hover{
+    background-color: gray;
+    transition-duration: 0.3s;
 }
 a#ultimo{
     border-bottom: none;

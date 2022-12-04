@@ -1,4 +1,9 @@
 var men = document.getElementById('menu')
 function action(){
-    men.style.display = 'block'
+    if (men.style.display == 'block'){
+        men.style.display = 'none'
+    }
+    else{
+        men.style.display = 'block'
+    }
 }
