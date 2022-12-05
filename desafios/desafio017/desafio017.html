@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="imagens/login.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/mobile.css" media="all">
+    <link rel="stylesheet" href="estilos/tablet.css">
+    <link rel="stylesheet" href="estilos/desktop.css">
+</head>
+<body>
+    <main>
+        <img src="imagens/pattern-500.jpg" alt="Imagem decorativa" id="pattern">
+        <h1>Login</h1>
+        <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+        <form method="post" autocomplete="on">
+            <p class="input">
+                <img src="imagens/user.png" alt="Ícone de usuário">
+                <input type="email" name="email" id="iemail" required autocomplete="email" placeholder=" Insira seu e-mail"> 
+            </p>
+            <p class="input">
+                <img src="imagens/key.png" alt="Ícone de senha">
+                <input type="password" name="pass" id="ipass" required minlength="8" maxlength="15" autocomplete="current-password" placeholder=" Insira sua senha">
+            </p>
+            <p class="pbut">
+                <input type="submit" value="Entrar" class="button">
+            </p>
+            <p class="pbut">
+                <button class="button">
+                    Esqueci minha senha
+                    <img src="imagens/mail.png" alt="Ícone de e-mail" id="email">
+                </button>
+            </p>
+            <p id="cadastro">Não é cadastrado? <a href="#">Faça seu cadastro</a></p>
+        </form>
+    </main>
+</body>
+</html>
