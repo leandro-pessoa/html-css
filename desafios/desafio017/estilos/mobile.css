@@ -21,8 +21,8 @@ main{
     position: absolute;
     top: 50%;
     left: 50%;
+    width: 280px;
     transform: translate(-50%, -50%);
-    max-width: 300px;
     background-color: var(--cor1);
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.233);
@@ -47,6 +47,7 @@ p.input{
     margin-bottom: 5px;
     border-radius: 10px;
     position: relative;
+    
 }
 p.input > img{
     margin-left: 5px;
@@ -54,7 +55,7 @@ p.input > img{
     margin-top: 4px;
 }
 p.input > input{
-    width: 212px;
+    width: 195px;
     height: 25px;
     border-radius: 10px;
     border: 1px solid white;
@@ -64,17 +65,19 @@ p.input > input{
     transform: translate(-40%, -50%);
     padding: 5px;
 }
-img#pattern{
-    width: 300px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+main > div#img{
+    background: white url('../imagens/pattern.jpg') center center no-repeat fixed;
+    background-size: cover;
+    height: 160px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 p.pbut{
     text-align: center;
     padding-top: 5px;
 }
 .button{
-    width: 280px;
+    width: 260px;
     border-radius: 10px;
     height: 40px;
     cursor: pointer;
