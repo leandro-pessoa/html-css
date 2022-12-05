@@ -8,7 +8,28 @@
         --cor4: rgb(165, 165, 165);
         --fonte-h1: 'Sriracha', cursive;
     }
-    body{
-        background-color: red;
+    main{
+        width: 900px;
+    }
+    
+    section#img > div#img{
+        float: right;
+        width: 50%;
+        height: 350px;
+    }
+    section#form{
+        float: left;
+        width: 50%;
+    }
+    #iemail{
+        width: 85%;
+        margin-left: -10px;
+    }
+    #ipass{
+        width: 85%;
+        margin-left: -10px;
+    }
+    .button{
+        width: 100%;
     }
 }
