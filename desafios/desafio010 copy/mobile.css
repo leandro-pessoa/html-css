@@ -1,0 +1,17 @@
+@charset "UTF-8";
+@media screen and (max-width: 768px) {
+    button{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+    nav > a{
+        display: block;
+        text-align: center;
+        
+    }
+    ul{
+        columns: 1;
+    }
+}

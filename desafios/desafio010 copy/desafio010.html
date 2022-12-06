@@ -7,20 +7,27 @@
     <title>Desafio 10</title>
     <link rel="stylesheet" href="desafio010.css">
     <link rel="shortcut icon" href="content/imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="mobile.css">
 </head>
-<body>
+<body onresize="mud()">
     <header>
         <section id="cabeca">
             <h1 id="curiosidades">CURIOSIDADES DE TECNOLOGIA</h1>
             <p id="topo">Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar.
             </p>
         </section>
+        <div>
+            <button onclick="action()" id="button">
+                <img src="content/imagens/menu.png" alt="botão do menu">
+            </button>
+        </div>
+        <nav id="nav">
+            <a href="#" target="_self" rel="prev">Home</a>
+            <a href="#" target="_self" rel="next">Notícias</a>
+            <a href="#" target="_self" rel="next">Curiosidades</a>
+        </nav>
     </header>
-    <nav>
-        <a href="#" target="_self" rel="prev">Home</a>
-        <a href="#" target="_self" rel="next">Notícias</a>
-        <a href="#" target="_self" rel="next">Curiosidades</a>
-    </nav>
+    
     <main>
         <section>
             <article>
@@ -105,5 +112,6 @@
     <footer>
         &copy;Meus estudos
     </footer>
+    <script src="desafio010.js"></script>
 </body>
 </html>

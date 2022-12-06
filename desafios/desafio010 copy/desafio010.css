@@ -16,8 +16,7 @@ header{
     background-image: linear-gradient(to bottom, #64E05F, #4CAD49, #2B6129);
     position: relative;
     top: -22px;
-    height: 230px;
-    padding: 10px;
+    min-height: 170px;
     color: white;
     text-shadow: 2px 2px 0px #20471e9a;
     margin: 0;
@@ -27,15 +26,33 @@ section#cabeca{
     text-align: center;
 }
 h1#curiosidades{
-    margin-top: 50px;
+    margin-top: 20px;
+    padding-top: 20px;
     margin-bottom: 25px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: normal;
     font-size: 2em;
+    
+}
+div#but{
+    text-align: center;
+}
+button{
+    background-color: transparent;
+    border: 0px solid;
+    cursor: pointer;
+    width: 100%;
+    display: none;
+}
+button:hover{
+    background-color: #4CAD49;
+    transition: 0.3s;
+}
+button > img{
+    width: 45px;
 }
 nav{
-    position: relative;
-    top: -50px
+    
 }
 nav > a{
     margin: 5px;
@@ -66,8 +83,7 @@ main{
     margin: auto;
     background-color: white;
     max-width: 820px;
-    position: relative;
-    top: -40px;
+    margin-top: -22px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.164);
     padding-top: 10px;
     padding-bottom: 10px;
