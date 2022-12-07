@@ -17,7 +17,6 @@ body{
     position: relative;
     height: 100vh;
     background-image: linear-gradient(to bottom, var(--cor1), var(--cor2), var(--cor3));
-    background-repeat: no-repeat;
 }
 main{
     position: absolute;
