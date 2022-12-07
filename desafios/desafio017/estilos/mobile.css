@@ -62,7 +62,7 @@ p.input{
     position: relative;
     
 }
-p.input > img{
+p.input img{
     margin-left: 5px;
     width: 38px;
     margin-top: 4px;
