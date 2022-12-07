@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width: 668px) and (max-width: 1024px){
     :root{
         --cor1: white;
         --cor2: rgb(238, 237, 237);
@@ -14,7 +14,7 @@
     section#img > div#img{
         float: left;
         width: 30%;
-        height: 350px;
+        height: 326px;
     }
     section#form{
         float: right;

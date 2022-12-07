@@ -17,6 +17,10 @@ body{
     position: relative;
     height: 100vh;
     background-image: linear-gradient(to bottom, var(--cor1), var(--cor2), var(--cor3));
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 main{
     position: absolute;
@@ -47,6 +51,9 @@ main > section#form > p{
 
 main > form{
     padding: 10px;
+}
+main p{
+    font-size: 0.9em;
 }
 p.input{
     background-color: var(--cor3);
@@ -110,4 +117,34 @@ p#cadastro{
 }
 #cadastro > a:hover{
     text-decoration: underline;
+}
+@media screen and (orientation: landscape) and (max-width: 668px){
+    main{
+        width:500px
+    }
+    section#img > div#img{
+        float: left;
+        width: 226px;
+        width: 20%;
+        height: 300px;
+    }
+    section#form{
+        float: right;
+        width: 80%;
+    }
+    .button{
+        height: 30px;
+        width: 100%;
+    }
+    main p{
+        font-size: 0.8em;
+    }
+    #iemail{
+        width: 85%;
+        margin-left: -10px;
+    }
+    #ipass{
+        width: 85%;
+        margin-left: -10px;
+    }
 }
