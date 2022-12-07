@@ -1,0 +1,23 @@
+@charset "UTF-8";
+@media screen and (max-width: 768px) {
+    body{
+        background-color: black;
+    }
+    section#cel{
+        background: transparent url('imagens/pacote-d013/imagens/frame-iphone-220.png') center center no-repeat fixed;
+        height: 440px;
+    }
+    iframe{
+        width: 188px;
+        height: 333px;
+        top: 55px;
+    }
+    section#icones{
+        
+    }
+    .ico{
+        width: 40px;
+        display: inline;
+        
+    }
+}
