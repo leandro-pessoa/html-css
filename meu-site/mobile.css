@@ -1,0 +1,43 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@400;700&display=swap');
+@media screen and (max-width: 350px) {
+    p.img{
+        width: 250px;
+    }
+}
+@media screen and (max-width: 540px) {
+    p.img{
+        max-width: 300px;
+    }
+}
+@media screen and (max-width: 568px) {
+    header{
+        padding-top: 6px;
+    }
+    header img{
+        width: 110px;
+    }
+    h1#principal{
+        font-size: 2.3em;
+    }
+    main h2{
+        font-size: 1.5em;
+    }
+    main p{
+        font-size: 0.9em;
+    }
+    main li{
+        font-size: 0.9em;
+        
+    }
+    .selects{
+        width: 130px;
+        height: 100px;
+    }
+    article.selects{
+        height: 110px;
+    }
+    .selects > img{
+        width: 100px;
+    }
+}
