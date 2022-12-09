@@ -110,6 +110,7 @@ article.selects{
     transform: translate(-4px, -4px);
     transition: transform 0.3s;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.308);
+    color: var(--cor2);
 }
 main{
     background-color: white;
