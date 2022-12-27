@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/mobile.css" media="all">
+    <link rel="stylesheet" href="estilo/outros.css">
+    
+    <title>Tela de login</title>
+</head>
+<body>
+    <main id="principal">
+        <section id="formulario">
+            <h1>Login</h1>
+            <form action="" method="post">
+                <p class="form">
+                    <label for="iemail">
+                        <img src="imagens/mail-svg.svg" alt="Insira seu Email">
+                    </label>
+                    <input type="email" name="email" id="iemail" required placeholder="E-mail">
+                </p>
+                <p class="form">
+                    <label for="ipass">
+                        <img src="imagens/lock-svg.svg" alt="Insira sua Senha">
+                    </label>
+                    <input type="password" name="pass" id="ipass" required minlength="8" maxlength="20" placeholder="Senha">
+                </p>
+                <p class="form but">
+                    <input type="submit" value="Entrar" id="entrar">
+                </p>
+                <p class="form but">
+                    <input type="button" value="Esqueceu a senha?" id="esqueceu">
+                </p>
+            </form><hr style="margin-top: 10px;">
+            <p id="cadastro"><a href="">Fazer cadastro</a></p>
+        </section>
+    </main>
+</body>
+</html>

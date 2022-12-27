@@ -1,0 +1,44 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Sriracha&display=swap');
+@media screen and (min-width: 568px){
+    h1{
+        font-size: 2.5em;
+    }
+    main#principal{
+        position: absolute;
+        border-radius: 0px;
+        height: 100vh;
+        width: 400px;
+    }
+    section#formulario{
+        position: relative;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    p.form img{
+        width: 45px;
+        transform: translate(0px, 17px);
+    }
+    input#iemail{
+        height: 39px;
+        width: 86%;
+        font-size: 1em;
+    }
+    input#ipass{
+        height: 39px;
+        width: 86%;
+        font-size: 1em;
+    }
+    input#entrar{
+        height: 42px;
+        font-size: 1em;
+    }
+    input#esqueceu{
+        height: 42px;
+        font-size: 1em;
+    }
+    p#cadastro{
+        font-size: 1.1em;
+    }
+}
